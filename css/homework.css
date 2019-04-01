@@ -1,0 +1,32 @@
+html {
+  font-size: 16px;
+}
+h1{
+  font-size:18px;
+}
+h2{
+  font-size: 2em;
+}
+h3{
+  font-size: 3rem;
+}
+h4{
+  font-size: 140%;
+}
+h5{
+  font-size: 1vw;
+}
+h6{
+  font-size: 3vh;
+}
+tbody :first-letter {
+    color: red;
+    } 
+table {
+/* Красный цвет первой буквы */
+   
+  width: 100%;
+}
+td {
+  padding: 16px;
+}
