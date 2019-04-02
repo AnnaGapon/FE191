@@ -2,31 +2,36 @@ html {
   font-size: 16px;
 }
 h1{
-  font-size:18px;
+  font-size: 70px;
 }
 h2{
-  font-size: 2em;
+  font-size: 4em;
 }
 h3{
   font-size: 3rem;
 }
 h4{
-  font-size: 140%;
+  font-size: 200%;
 }
 h5{
-  font-size: 1vw;
+  font-size: 2vw;
 }
 h6{
-  font-size: 3vh;
+  font-size: 2vh;
 }
 tbody :first-letter {
     color: red;
     } 
 table {
-/* Красный цвет первой буквы */
-   
   width: 100%;
 }
 td {
   padding: 16px;
 }
+tr:nth-child(even) {
+  background-color:#ddd}
+tr:nth-child(2n+1) {
+  font-style: italic;
+  font-weight: bold;
+}
+tr:not(Table cell 1){font-style: italic;}
